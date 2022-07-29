@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .header {
     background-color:#EEEFF1;
 }
@@ -10,6 +14,7 @@
 .container {
     width: 1110px;
     margin: 0 auto
+    
 }
 
 /* ------HEADER START */
@@ -59,6 +64,41 @@
     display: flex;
 }
 
+.screen-box {
+    padding: 105px 220px 195px 0;
+}
+
+.description {
+    padding-top: 76px;
+}
+
+.title {
+    font-size: 48px;
+    /* line-height: 79px */
+}
+
+.description_text {
+    margin-top: 60px;
+    line-height: 26px;
+    font-size: 16px;
+    color: #727272;
+    font-weight: 200;
+}
+
+.description_button {
+    margin-top: 60px;
+    background-color: #34547A;
+    color: #EEEFF1;
+    padding: 25px 41px;
+}
+
+.work-section {
+    background-color: #EEEFF1;
+}
+
+.work_title {
+    text-align: center;
+}
 
 
 /* Main End */

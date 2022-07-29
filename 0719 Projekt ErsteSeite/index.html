@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
@@ -28,7 +31,6 @@
                             </li>
                             <li class="list-item">
                                 <a class="list-item_link" href="#">КОНТАКТЫ</a>
-                                <p>test</p>
                             </li>
                         </ul>
                     </nav>
@@ -37,17 +39,29 @@
     </header>
 
     <main>
-        <section class="intro-section" >
-            <div class="screen-box">
-                <img class="screen-img" src="./Image/Screen.png" alt="Screen">
-            </div>
+        <div class="container"> <!--ограничения по ширине -->
+            <section class="intro-section" >
+                <div class="screen-box">
+                    <img class="screen-img" src="./Image/Screen.png" alt="Screen">
+                </div>
 
-            <div class="description">
-                <h2>Дизайн и верстка</h2>
-            </div>
-            
-        </section>
+                <div class="description">
+                     <h2 class="title description_title">Дизайн и верстка</h2>
+                     
+                     <p class="description_text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и 
+                        вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов 
+                        на латинице с начала XVI века.</p>
+
+                    <button class="description_button">НАПИСАТЬ МНЕ</button>
+                </div>           
+            </section>
+        </div>  
+            <section class="work-section">
+                <h2 class="title work_title">Как я работаю</h2>
+
+            </section>
 
     </main>
 </body>
 </html>
+<!--  -->
