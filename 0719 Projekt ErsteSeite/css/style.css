@@ -77,7 +77,7 @@ body {
     /* line-height: 79px */
 }
 
-.description_text {
+.sub-title {
     margin-top: 60px;
     line-height: 26px;
     font-size: 16px;
@@ -94,12 +94,41 @@ body {
 
 .work-section {
     background-color: #EEEFF1;
+    padding-top: 46px;
+    padding-bottom: 100px;
 }
 
 .work_title {
     text-align: center;
 }
 
+.work_text {
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    width: 540px;
+}
 
+.screen-img-2 {
+    width: 100%;
+    margin-top: 57px;
+}
+
+.images-section{
+    padding-top: 141px;
+    padding-bottom: 116px;
+}
+
+.images-box {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+    
+
+}
+
+.image-box-pic {
+    width: 100%;
+}
 /* Main End */
 
