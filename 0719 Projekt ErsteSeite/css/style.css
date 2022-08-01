@@ -123,8 +123,6 @@ body {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 30px;
-    
-
 }
 
 .image-box-pic {
@@ -132,3 +130,11 @@ body {
 }
 /* Main End */
 
+.footer{  
+    background-color: #34547A;
+}
+
+.footer_title_link{
+    color:#FFFFFF;
+    text-decoration: none;
+}
